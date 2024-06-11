@@ -1,6 +1,7 @@
-h1 {
+h1 > div {
         padding: 10px;
         margin-bottom: 0;
+    font-size: 2.5rem;
     }
 
 #list-container .list-item {
@@ -8,7 +9,7 @@ h1 {
     border-radius: 5px;
 
     i.bi.bi-trash3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
 
         &:hover {
             color: red;

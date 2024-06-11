@@ -7,46 +7,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To Do List</title>
 
-<!--    boostrap link-->
+    <!--    boostrap link-->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script defer  src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<!--    bootstrap icons link-->
+    <!--    bootstrap icons link-->
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
 
-<!--    animate css link-->
+    <!--    animate css link-->
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
-<!--    Need to add my styles and js at bottom-->
+    <!--    Need to add my styles and js at bottom-->
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="./js/index.js"></script>
 </head>
 <body>
-    <header class="border-button">
-        <h1 class="d-flex justify-content-center align-items-center gap-3 pt-2">
-            <div class="animate__bounceIn">
-                <i class="bi bi-check2-circle text-primary"></i>
-            </div>
-            To-do List App
-        </h1>
-    </header>
-    <div id="txt-input" class="input-group mb-3">
-        <input id="text-task" type="text" class="form-control" placeholder="Enter to do here" aria-describedby="button-addon2">
-        <button id="btn-add-task" class="btn btn-outline-secondary" type="button">
+<header class="border-button">
+    <h1 class="d-flex justify-content-center align-items-center gap-3 pt-2">
+        <div class="animate__animated animate__bounceIn">
+            <i class="bi bi-check2-circle text-primary"></i>
+        </div>
+        To-do List App
+    </h1>
+</header>
+<main class="p-3">
+    <form class="d-flex gap-1">
+        <input id="text-task" type="text" placeholder="Enter to do here" autofocus class="form-control">
+        <button id="btn-add-task" class="btn btn-success flex-shrink-0">
             Add Task
         </button>
-    </div>
+    </form>
     <section id="list-container" class="pt-2">
-<!--        <div class="list-item d-flex justify-content-between p-2 align-items-center animate__animated animate__fadeInBottomLeft">-->
-<!--            <label class="d-flex gap-2">-->
-<!--            <input type="checkbox" class="form-check">-->
-<!--            Checkbox 1-->
-<!--            </label>-->
-<!--            <i class="bi bi-trash3"></i>-->
-<!--        </div>-->
+        <!--        <div class="list-item d-flex justify-content-between p-2 align-items-center animate__animated animate__fadeInBottomLeft">-->
+        <!--            <label class="d-flex gap-2">-->
+        <!--            <input type="checkbox" class="form-check">-->
+        <!--            Checkbox 1-->
+        <!--            </label>-->
+        <!--            <i class="bi bi-trash3"></i>-->
+        <!--        </div>-->
         <div class="text-center text-black-50 pt-2">
             No item yet.
         </div>
     </section>
+</main>
 </body>
 </html>
