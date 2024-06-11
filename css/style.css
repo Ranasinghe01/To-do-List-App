@@ -1,0 +1,21 @@
+h1 {
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+#list-container .list-item {
+    cursor: pointer;
+    border-radius: 5px;
+
+    i.bi.bi-trash3 {
+        font-size: 1.3rem;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    &:hover {
+        background-color: lightblue;
+    }
+}
